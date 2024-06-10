@@ -1,4 +1,46 @@
-.app{
+.hero-section{
     width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section, .animation-section{
+    line-height: 1;
+    width: 40%;
+}
+
+.text-section h4{
+    font-size: 1.25em;
+    margin-bottom: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.text-section h1{
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.text-section p{
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Inter', sans-serif;   
+    line-height: 1.5;
+}
+
+
+@media (max-width: 600px){
+    .text-section{
+        width: 80%;
+    }
+
+    .animation-section{
+        display: none;
+    }
 }
