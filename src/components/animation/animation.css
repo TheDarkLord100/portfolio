@@ -1,9 +1,47 @@
 .animation-container {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 40vh;
+    position: relative;
+}
+
+.robotWrapper {
+    position: relative;
+    width: 25rem;
+}
+
+.robotWrapper .robotImg {
+    width: 100%;
+    overflow: hidden;
+}
+
+.robotWrapper .leftEyeWrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 17%;
+    left: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftEyeImg, .rightEyeImg {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: transform 0.1s;
+}
+
+.robotWrapper .rightEyeWrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 17%;
+    left: 57%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 600px) {
