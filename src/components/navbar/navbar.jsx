@@ -19,7 +19,13 @@ const Navbar = () => {
           <a href="#link1" className="nav-link">About</a>
           <a href="#link2" className="nav-link">Projects</a>
           <a href="#link3" className="nav-link">Contact</a>
-          <button className="nav-button">Resume</button>
+          <div className="button-wrapper">
+            <div className="nav-button">
+              <div className="fake-border">
+                Resume
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

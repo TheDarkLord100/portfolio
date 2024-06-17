@@ -1,83 +1,135 @@
 .navbar {
-    display: flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  vertical-align: middle;
+  padding: 10px 40px;
+  max-width: 100vw;
+  background-color: var(--background-color);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.button-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px var(--accent-color);
+}
+
+.nav-button {
+  background-color: var(--background-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.nav-button .fake-border {
+  z-index: 1;
+  padding: 5px 10px;
+  background-color: var(--background-color);
+  position: relative;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-button::before {
+  content: "";
+  display: block;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      var(--accent-color) 50%,
+      rgba(255, 255, 255, 0) 100%);
+  height: 300px;
+  width: 30px;
+  position: absolute;
+  animation: rotate 5s linear forwards infinite;
+  z-index: 0;
+  top: 50%;
+  left: 35%;
+  transform-origin: top center;
+}
+
+
+.menu-toggle {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
     justify-content: flex-end;
-    align-items: center;
-    padding: 10px 40px;
-    max-width: 100vw;
-    background-color: var(--background-color);
-  }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  
-  .nav-link {
-    color: var(--text-color);
-    font-size: 18px;
-    font-weight: 500;
-    transition: 0.3s ease-in-out;
-    margin-right: 50px;
-  }
-  
-  .nav-link:hover {
-    color: var(--accent-color);
-  }
-  
-  .nav-button {
-    background-color: var(--background-color);
-
-    color: white;
-    border: 1px solid var(--accent-color);
-    padding: 10px 20px;
-    cursor: pointer;
   }
 
-  
   .menu-toggle {
-    background-color: transparent;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    display: none; 
-    font-size: 24px;
+    z-index: 100;
+    display: block;
   }
-  
-  @media (max-width: 600px) {
-    .navbar {
-      justify-content: flex-end;
-    }
-  
-    .menu-toggle {
-        z-index: 100;
-      display: block; 
-    }
-  
-    .nav-links {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      right: -100%;
-      background-color: var(--background-color);
-      width: 100vw;
-      height: 100vh;
-      justify-content: center;
-      padding: 0;
-      transition: right 0.3s ease-in-out;
-    }
-  
-    .nav-links.open {
-      right: 0;
-    }
-  
-    .nav-link,
-    .nav-button {
-      margin: 20px 0;
-      text-align: center;
-    }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    padding: 0;
+    transition: right 0.3s ease-in-out;
   }
-  
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .nav-link,
+  .button-wrapper {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
