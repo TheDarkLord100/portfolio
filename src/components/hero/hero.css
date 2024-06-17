@@ -3,24 +3,30 @@
     height: 100vh;
     overflow-x: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 5rem;
 }
 
-.text-section, .animation-section{
+.text-section{
     line-height: 1;
-    width: 40%;
+    width: 65%;
+}
+
+.animation-section{
+    width: 30%;
 }
 
 .text-section h4{
-    font-size: 1.25em;
+    font-size: 2vmax;
     margin-bottom: 0.5rem;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
 
 .text-section h1{
-    font-size: 3.5em;
+    font-size: calc(5em + 1vmin);
+    margin: 0;
     margin-bottom: 0.5em;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -28,7 +34,7 @@
 }
 
 .text-section p{
-    font-size: 1.2em;
+    font-size: 1.25em;
     margin: 0;
     font-family: 'Inter', sans-serif;   
     line-height: 1.5;
@@ -37,7 +43,15 @@
 
 @media (max-width: 600px){
     .text-section{
-        width: 80%;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .hero-section{
+        padding: 0;
+        align-items: start;
+        padding-top: 10rem;
+        height: calc(100vh - 10rem);
     }
 
     .animation-section{

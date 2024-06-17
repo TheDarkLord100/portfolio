@@ -1,6 +1,6 @@
 .animation-container {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     width: 100%;
     position: relative;
