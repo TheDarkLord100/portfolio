@@ -18,14 +18,14 @@
 }
 
 .text-section h4{
-    font-size: 2vmax;
+    font-size: 1.25em;
     margin-bottom: 0.5rem;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
 
 .text-section h1{
-    font-size: calc(5em + 1vmin);
+    font-size: 6.25em;
     margin: 0;
     margin-bottom: 0.5em;
     font-family: 'Inter', sans-serif;
@@ -41,10 +41,15 @@
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     .text-section{
         width: 100%;
         padding: 0 2rem;
+        overflow: hidden;
+    }
+
+    .text-section h1{
+        font-size: 5em;
     }
 
     .hero-section{

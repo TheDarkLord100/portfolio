@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import Animation from '../animation/animation'
+import Animation from '../../components/animation/animation'
 
 function Hero() {
     return (
