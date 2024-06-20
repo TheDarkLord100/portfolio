@@ -1,0 +1,84 @@
+[
+    {
+      "title": "Live Object Detection",
+      "date": "March 24",
+      "description": "Flutter app designed to automatically detect objects in real-time and zoom in to focus on them.",
+      "technologies": ["Flutter", "TensorFlow"],
+      "github": "https://github.com/TheDarkLord100/live-object-detection",
+      "link": null,
+      "playStore": null
+    },
+    {
+      "title": "Sphurti 2024",
+      "date": "Feb 24 - March 24",
+      "description": "Website created for our sports fest Sphurti, displaying event details and facilitating participant registrations.",
+      "technologies": ["ReactJS", "Firebase"],
+      "github": "https://github.com/sphurtidit/sphurti2024",
+      "link": "https://ditusphurti.com/",
+      "playStore": null
+    },
+    {
+      "title": "Youthopia 2023",
+      "date": "Oct 23 - Nov 23",
+      "description": "Flutter app and ReactJS website, backed by a NodeJS backend and MongoDB, facilitating event registration for participants at our annual fest, Youthopia.",
+      "technologies": ["Flutter", "ReactJS", "NodeJS", "MongoDB"],
+      "github": "https://github.com/orgs/Youthopia-2023/repositories",
+      "link": "https://youthopia.dituniversity.co.in/",
+      "playStore": "https://play.google.com/store/apps/details?id=com.miraclestudios.youthopia&hl=en"
+    },
+    {
+      "title": "Shreni Samudaya",
+      "date": "Dec 22 - May 23",
+      "description": "Bilingual social media app for the Weaver community in Karnataka and nearby regions. Worked as a part of internship.",
+      "technologies": ["Flutter", "Django"],
+      "github": null,
+      "link": null,
+      "playStore": "https://play.google.com/store/apps/details?id=com.shreni.samudaya&hl=en"
+    },
+    {
+      "title": "JSR Forms",
+      "date": "Jan 23 - Feb 23",
+      "description": "A website and a mobile app that allows users to create customised forms and share them with a link.",
+      "technologies": ["Flutter", "ReactJS", "Firebase"],
+      "github": "https://github.com/IEEE-DITU/form-creater-app",
+      "link": "https://jsrforms-dev.vercel.app/auth",
+      "playStore": null
+    },
+    {
+      "title": "NoQueue",
+      "date": "April 23",
+      "description": "NoQueue is a ticketless booking system for museums and monuments, utilizing a face detection algorithm to ensure secure and seamless entry for visitors who book tickets online.",
+      "technologies": ["ReactJS", "Flask", "SQL"],
+      "github": "https://github.com/Team-ByteBuilders/boat-server",
+      "link": null,
+      "playStore": null
+    },
+    {
+      "title": "PayQ",
+      "date": "March 23",
+      "description": "Payment App with automatic QR scanning, location-based shop details, UPI IDs, real-time updates on pending payments, and detailed analysis of shopping history to enhance financial management.",
+      "technologies": ["Flutter", "NodeJS", "MongoDB"],
+      "github": "https://github.com/Team-ByteBuilders/boap_app",
+      "link": null,
+      "playStore": null
+    },
+    {
+      "title": "Anubhav App",
+      "date": "Feb 23",
+      "description": "Community app for the elderly, allowing them to log their daily status, connect with others, and participate in activities for their well being.",
+      "technologies": ["Flutter", "NodeJS", "SQL"],
+      "github": "https://github.com/Team-ByteBuilders/Anubhav-App",
+      "link": null,
+      "playStore": null
+    },
+    {
+      "title": "Arduino Graph",
+      "date": "Jan 23 - March 23",
+      "description": "Flutter desktop Application for collecting data from Arduino and plotting it on a graph. Worked as a part of internship.",
+      "technologies": ["Flutter", "Arduino"],
+      "github": "https://github.com/TheDarkLord100/parmanu_flutter",
+      "link": null,
+      "playStore": null
+    }
+  ]
+  

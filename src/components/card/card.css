@@ -1,0 +1,66 @@
+.card {
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    /* width: 350px; */
+    box-shadow: 5px 4px 7px 5px #000;   
+    height: 80%;
+}
+
+.card p {
+    font-size: 1em;
+    font-family: 'Lig';
+    margin: 0;
+}
+
+.card .icons {
+    margin-top: 10px;
+}
+
+.card .icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.card .icons a:hover {
+    color: var(--accent-color);
+}
+
+.card .project-heading{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+
+.project-description{
+    /* flex-grow: 1; */
+    /* height: 100%; */
+    line-height: 24px;
+}
+
+.wrap-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 72.5%;
+}
+
+.tech{
+    /* margin-top: auto; */
+    line-height: 24px;
+}
+
+.project-date{
+    font-size: 0.875em;
+    line-height: 21px;
+}
+
+.card h3 {
+    font-size: 1.25em;
+    margin: 0;
+}
