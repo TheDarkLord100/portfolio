@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Contact() {
     return (
-        <section>
+        <section id='contact'>
             <div className="section-heading">
                 <span className='accent'>03.</span>Contact
             </div>

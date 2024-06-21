@@ -11,7 +11,7 @@ function Project() {
     }, []);
 
     return (
-        <section>
+        <section id='project'>
             <div className="section-heading">
                 <span className='accent'>02.</span>Projects
             </div>

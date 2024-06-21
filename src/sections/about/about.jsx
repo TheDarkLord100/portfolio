@@ -5,7 +5,7 @@ import Image from './../../assets/photo.jpg'
 
 function About() {
   return (
-    <section>
+    <section id='about'>
       <div className="section-heading">
         <span className='accent'>01.</span>About Me
       </div>

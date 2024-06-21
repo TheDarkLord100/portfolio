@@ -16,9 +16,9 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <a href="#link1" className="nav-link">About</a>
-          <a href="#link2" className="nav-link">Projects</a>
-          <a href="#link3" className="nav-link">Contact</a>
+          <a href="#about" className="nav-link">About</a>
+          <a href="#project" className="nav-link">Projects</a>
+          <a href="#contact" className="nav-link">Contact</a>
           <div className="button-wrapper">
             <div className="nav-button">
               <div className="fake-border">
