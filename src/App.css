@@ -2,3 +2,9 @@
     font-family: 'Lig';
     src: url('/src/fonts/Ligconsolata-Regular.ttf');
 }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
