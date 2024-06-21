@@ -2,6 +2,7 @@
   --background-color: #1c1c1c;
   --text-color: #fff;
   --accent-color: #5FE4C9;
+  --border-color: #828282;
 
   background-color: var(--background-color);
   color: var(--text-color);
