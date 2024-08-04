@@ -1,4 +1,31 @@
 [
+  {
+    "title": "Algorithm Visualiser",
+    "date": "August 24",
+    "description": "Java Application to visualise pathfinding algorithms like Dijkstra, A*, BFS, DFS, etc. on a grid.",
+    "technologies": ["JavaFX", "Algorithms"],
+    "github": "https://github.com/TheDarkLord100/Path-finding-JAVA",
+    "link": null,
+    "playStore": null
+  },
+  {   
+    "title": "Fruit Ninja Object Detection",
+    "date": "March 24",
+    "description": "Python Program to automatically detect and slice fruits in the popular game Fruit Ninja.",
+    "technologies": ["Python", "OpenCV"],
+    "github": "https://github.com/TheDarkLord100/Fruit-Ninja-Image-Recognition",
+    "link": null,
+    "playStore": null
+  },
+  {
+    "title": "Weather Manager Package",
+    "date": "March 24",
+    "description": "Dart Package to fetch weather data from OpenWeatherMap API and process it in a user-friendly manner.",
+    "technologies": ["Dart", "REST API"],
+    "github": "https://github.com/TheDarkLord100/weather_manager",
+    "link": "https://pub.dev/packages/weather_manager",
+    "playStore": null
+  },
     {
       "title": "Live Object Detection",
       "date": "March 24",
